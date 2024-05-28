@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    html {
+        height: 300px;
+        width: 550px;      
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsagate Prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="static/bulma.min.css">
+</head>
+<body>
+    <section class="hero is-small is-info">
+        <div class="hero-body">
+            <h1 class="title is-3">Elsagate Detector</h1>
+            <h1 class="subtitle is-5">Detect and Protect</h1>
+        </div>
+    </section>
+
+    <div class="column is-three-quarters">
+        <div class="card">
+            <div class="card-content">
+                <span class="icon-text">
+                    <span class="icon">
+                        <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i>
+                    </span>
+                    <span class="title is-5">Definition</span>
+                </span>
+                <div class="subtitle is-6">Elsagate is a video for children 
+                    that contains <strong>violence</strong>, <strong>pornography</strong>, or <strong>disturbing scenes</strong>.
+                </div>
+
+                <div class="block"></div>
+                
+                <span class="icon-text">
+                    <span class="icon">
+                        <i class="fa-brands fa-youtube" style="color: #74C0FC;"></i>
+                    </span>
+                    <span class="title is-5">How to Use</span>
+                </span>
+                <ul class="subtitle is-6">
+                    <li>1. Press the button below</li>
+                    <li>2. Wait a moment, the extension will automatically label 
+                        videos following your scroll, search, or click </li>
+                    <li>3. If a <span class="tag is-success">Enjoy, This Video is Safe</span> 
+                        appears on the video, then the video is safe </li>
+                    <li>4. But if the video is labeled as <span class="tag is-danger">Warning, Detected as Elsagate</span> , 
+                        please be careful!</li>
+                    <li>5. If you want to remove a label or see problems with labeling, 
+                        simply <strong>refresh</strong> the page!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="column is-three-quarters">
+        <button id="toggle" class="button is-info is-fullwidth is-rounded">Detect</button>
+    </div>
+
+    <script src="static/popup.js"></script>
+</body>
+</html>
